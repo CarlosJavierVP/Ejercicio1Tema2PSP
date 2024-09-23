@@ -7,9 +7,9 @@ public class Ejercicio1 extends Thread{
     }
 
     @Override
-    public void run(){
+    public synchronized void run(){
 
-        for (int i = 0; i<3; i++){
+        for (int i = 0; i<10; i++){
             char l = this.letters;
             System.out.println(l);
         }
