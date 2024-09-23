@@ -8,8 +8,12 @@ public class Ejercicio1 extends Thread{
 
     @Override
     public void run(){
-        //método recorra tiempo
-        //en una clase main añadir tres instancias del objeto
+
+        for (int i = 0; i<3; i++){
+            char l = this.letters;
+            System.out.println(l);
+        }
+
 
     }
 
